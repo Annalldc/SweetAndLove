@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-left: 1px solid #CEDFE8;
+    border-right: 1px solid #CEDFE8;
+    font-family: 'Nunito';
+    font-weight: 600;
+    
+}
+
+header{
+    background-color: #CEDFE8;
+    border-bottom: 2px solid #000;
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid #FFBABA;
+    background-color: #FFBABA;
+    padding: 2px;
+}
+
+h1{
+    font-family: 'Dancing Script';
+    font-weight: 500;
+    text-align: center;
+    font-size: 50px;
+}
+
+img{
+    width: 15%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+nav{
+    float: right;
+    margin-right: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+footer{
+    background-color: #CEDFE8;
+    border-top: 2px solid #000000; ;
+}
+
+
+p{
+    float: left;
+    margin-left: 0.3rem;
+}
+
+#footer{
+    text-align: center;
+    font-size: 25px;
+}
+
+i{
+    float: right;
+    margin-right: 0.8rem;
+}
+
+button{
+    margin-bottom: 0.5rem;
+    margin-left: 0.2rem;
+}
+
+form{
+    margin-left: 0.5rem;
+}
