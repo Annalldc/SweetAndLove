@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+}
+
+header {
+  background-color: #cedfe8;
+  border-bottom: 2px solid #000;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+.navbar {
+  background-color: #ffbaba;
+  border-radius: 20%;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-left: 1px solid brown;
+  border-right: 1px solid brown;
+  font-family: "Nunito", sans-serif;
+  font-size: larger;
+}
+
+footer {
+  background-color: #cedfe8;
+  border-bottom: 2px solid #000;
+}
+
+#footertitle {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.7rem;
+}
+
+ul {
+  list-style: none;
+  margin-left: -2rem;
+}
+
+h2,
+h3 {
+  font-size: 2rem;
+}
+
+
+
+.titulos {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+.doces {
+  background-color: #FFBABA ;
+  border-radius: 10%;
+}
+
+.donuts {
+  background-image: url(img/doughnuts-1868573_1920.jpg);
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.donuts img {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: 220px;
+  height: 200px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  order: -1;
+  border-radius: 20%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container2 {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
