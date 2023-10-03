@@ -25,6 +25,7 @@ a{
     background-color: #FFBABA;
     padding: 2px;
     border-radius: 0.2rem;
+    color: black;
 }
 
 h1{
@@ -90,6 +91,8 @@ h3{
     background-color: #FFBABA;
     border-radius: 0.2em;
 }
+
+#titulo-principal
 
 @media (max-width:400px){
     h1{
