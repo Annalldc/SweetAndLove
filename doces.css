@@ -4,6 +4,13 @@
   margin: 0;
 }
 
+title{
+  font-family: 'Dancing Script';
+  font-weight: 500;
+  text-align: center;
+  font-size: 4em;
+}
+
 header {
   background-color: #cedfe8;
   border-bottom: 2px solid #000;
@@ -11,20 +18,29 @@ header {
 
 a {
   text-decoration: none;
-  color: brown;
+  padding: 2px;
+  border-radius: 0.2rem;
+  color: black;
+  float: right;
+  margin-right: 0.5rem;
 }
 
 .navbar {
   background-color: #ffbaba;
-  border-radius: 20%;
+  border-radius: 0.2em;
+  float: right;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #FFBABA;
+  background-color: #FFBABA;
 }
 
 body {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  border-left: 1px solid brown;
-  border-right: 1px solid brown;
+  border-left: 1px solid #cedfe8;
+  border-right: 1px solid #cedfe8;
   font-family: "Nunito", sans-serif;
   font-size: larger;
 }
@@ -53,12 +69,17 @@ h3 {
 
 .titulos {
   font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
 }
 
 
 .doces {
-  background-color: #FFBABA ;
-  border-radius: 10%;
+  background-color: #FFBABA;
+  border-radius: 0.2em;
+  font-size: 1.3rem;
 }
 
 .donuts {
@@ -88,6 +109,8 @@ img {
   display: flex;
   order: -1;
   border-radius: 20%;
+  margin-bottom: 10px; 
+  margin-top: 10px;
 }
 
 .container {
@@ -105,4 +128,10 @@ img {
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
+}
+
+#brigadeiro{
+  background: #ffbaba; 
+  text-align: center;
+  font-size: 1em;
 }
