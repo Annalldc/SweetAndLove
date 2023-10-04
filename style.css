@@ -87,6 +87,7 @@ form{
     grid-template-columns: repeat(1, 1fr);
 }
 
+
 h3{
     background-color: #FFBABA;
     border-radius: 0.2em;
@@ -94,14 +95,10 @@ h3{
 
 #titulo-principal
 
-@media (max-width:400px){
+@media (max-width:400px)
+{
     h1{
         font-size: 2em;
     }
 }
 
-@media (max-width:400px){
-    img{
-        width: 5em;
-    }
-}
