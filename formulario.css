@@ -58,7 +58,6 @@ footer{
     align-items: center;
 }
 
-
 p{
     float: left;
     margin-left: 0.3rem;
@@ -87,12 +86,10 @@ form{
     grid-template-columns: repeat(1, 1fr);
 }
 
-
 h3{
     background-color: #FFBABA;
     border-radius: 0.2em;
 }
-
 
 @media (max-width:400px)
 {
@@ -100,4 +97,3 @@ h3{
         font-size: 2em;
     }
 }
-
