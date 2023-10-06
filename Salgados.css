@@ -62,9 +62,21 @@ footer{
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 300px;
+    height: 400px;
+    width: 1525px;
 }
 
 .img-section{
     margin: 10px;
+    width: 22%;
+    height: 22%;
+}
+#ul-1{
+    list-style: none;
+    margin: 2rem;
+}
+h3{
+    border: 1px solid #FFBABA;
+    background-color: #FFBABA;
+    
 }
