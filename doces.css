@@ -60,15 +60,16 @@ ul {
   margin-left: -2rem;
 }
 
-h2,
+h1,
 h3 {
   font-size: 2rem;
 }
 
 
+
 .titulos {
   font-family: 'Dancing Script', cursive;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-left: 0.5rem;
   margin-top: 0.5rem;
   text-align: center;
@@ -132,4 +133,17 @@ img {
   background: #ffbaba; 
   text-align: center;
   font-size: 1em;
+}
+
+@media (max-width:400px)
+{
+    .titulos{
+        font-size: 1.5em;
+    }
+
+    .navbar{
+      font-size: 0.7rem;
+      margin-left: 0.2rem;
+    }
+
 }

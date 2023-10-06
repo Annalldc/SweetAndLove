@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-left: 1px solid #CEDFE8;
+    border-right: 1px solid #CEDFE8;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+
+header{
+    background-color: #CEDFE8;
+    border-bottom: 2px solid #000;
+    margin-bottom: 0.5rem;
+}
+
+footer{
+    background-color: #CEDFE8;
+    border-top: 2px solid #000000; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid #FFBABA;
+    background-color: #FFBABA;
+    padding: 2px;
+    border-radius: 0.2rem;
+    color: black;
+}
+
+h1{
+    font-family: 'Dancing Script';
+    font-weight: 500;
+    text-align: center;
+    font-size: 4em;
+}
+
+.fundo{
+    background-image: url('IMG/lanchonete.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 45.2rem;
+    margin: 0;
+    max-width: 100%;
+}
+
+
+nav {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.navbar {
+    background-color: #ffbaba;
+    border-radius: 0.2em;
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #FFBABA;
+    background-color: #FFBABA;
+  }
+
+
+.Logo{
+    width: 15%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0.5em;
+}
+
+#copyp{
+        float: left;
+        margin-left: 0.3rem;
+}
+
+#titulo-footer{
+    text-align: center;
+    font-size: 25px;
+}
+
+i{
+    float: right;
+    margin-right: 0.8rem;
+}
+
+#introducao{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: #FFBABA;
+    font-family: 'Dancing Script';
+    font-weight: 500;
+}
+
+#listas{
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+h2{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #FFBABA;
+}
+
+@media (max-width:400px)
+{
+    h1{
+        font-size: 2em;
+    }
+
+    .fundo{
+        background-image: url('IMG/doceshome.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: auto;
+        margin: 0;
+        width: 100%;
+        max-width: 400px;
+    }
+}
